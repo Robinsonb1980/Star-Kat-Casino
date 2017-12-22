@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Star Kat Casino", "Assembly-CSharp.csproj", "{70D29300-3119-F934-8FB6-D53D59FBC5DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Star Kat Casino", "Assembly-CSharp-Editor.csproj", "{4A34003E-A205-A844-577F-C821F18F4ADC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70D29300-3119-F934-8FB6-D53D59FBC5DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70D29300-3119-F934-8FB6-D53D59FBC5DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70D29300-3119-F934-8FB6-D53D59FBC5DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70D29300-3119-F934-8FB6-D53D59FBC5DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A34003E-A205-A844-577F-C821F18F4ADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A34003E-A205-A844-577F-C821F18F4ADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A34003E-A205-A844-577F-C821F18F4ADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A34003E-A205-A844-577F-C821F18F4ADC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
