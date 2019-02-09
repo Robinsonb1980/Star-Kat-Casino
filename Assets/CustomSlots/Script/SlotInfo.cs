@@ -13,8 +13,8 @@ namespace CSFramework {
 		public int roundsCompleted = 0;
 		public int freeSpins = 0;
 		public int bonuses = 0;
-		public int balance = 1000;
-		public int bet = 1;
+		public int balance = 600000000;
+		public int bet = 25;
 		public int roundBalance;
 		public int roundHits;
 		public int totalHits;

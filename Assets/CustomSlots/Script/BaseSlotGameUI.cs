@@ -12,7 +12,7 @@ namespace CSFramework {
 		public CustomSlot slot;
 		public Text textMoney, textRoundCost, textRound, textIncome, textBet, textFreeSpin, textBonus, debugText;
 		public GameObject goFreeSpin, goBonus;
-		public List<int> betList = new List<int>() {1, 10, 100};
+		public List<int> betList = new List<int>() {1, 2, 3, 4, 5, 6, 7, 8};
 		public int targetFrameRate = 70;
 		private int betIndex = 0;
 
@@ -29,6 +29,7 @@ namespace CSFramework {
 			slot.callbacks.onLineSwitch.AddListener(OnLineSwitch);
 			slot.Activate();
 			Initialize();
+            
 		}
 
 		public virtual void Initialize() {
